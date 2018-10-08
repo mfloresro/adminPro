@@ -4,12 +4,17 @@
     "description": "Servidor Backend del curso del Angular Avanzado",
     "main": "index.js",
     "scripts": {
+        "start": "nodemon app.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
     "author": "Manuel Flores",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.16.3"
+        "express": "^4.16.3",
+        "mongoose": "^5.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.4"
     }
 }
