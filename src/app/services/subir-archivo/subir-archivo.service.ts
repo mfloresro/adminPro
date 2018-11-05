@@ -1,7 +1,4 @@
 import { Injectable } from '@angular/core';
-import { arch } from 'os';
-import { resolve, reject } from 'q';
-import { ResolveEnd } from '@angular/router';
 import { URL_SERVICIOS } from 'src/app/config/config';
 
 @Injectable({
