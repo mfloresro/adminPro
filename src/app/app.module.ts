@@ -19,6 +19,7 @@ import { ServiceModule } from './services/service.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
+import { PipesModule } from './pipes/pipes.module';
 
 
 
@@ -28,14 +29,15 @@ import { RegisterComponent } from './login/register.component';
     AppComponent,
     LoginComponent,
     RegisterComponent
-  ],
+    ],
   imports: [
     BrowserModule,
     APP_ROUTES,
     PagesModule,
     FormsModule,
     ReactiveFormsModule,
-    ServiceModule
+    ServiceModule,
+    PipesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
